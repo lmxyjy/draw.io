@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T03:21:30.454Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="ZqK6ThkaLS46mkDLuItS" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-07T11:55:41.051Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="iqk2kfaQuTkWfXqyG9OA" version="16.6.1" type="github">
   <diagram id="rW2sfNHs_H75Ewt_YXq0" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1053" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,8 +37,14 @@
         <mxCell id="Wy4MB-wMTk7PPI_UE0P6-4" value="请求首部" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="280" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Wy4MB-wMTk7PPI_UE0P6-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wy4MB-wMTk7PPI_UE0P6-7" target="Wy4MB-wMTk7PPI_UE0P6-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Wy4MB-wMTk7PPI_UE0P6-7" value="响应首部" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wy4MB-wMTk7PPI_UE0P6-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wy4MB-wMTk7PPI_UE0P6-8" target="Wy4MB-wMTk7PPI_UE0P6-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Wy4MB-wMTk7PPI_UE0P6-8" value="实体首部" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="460" width="120" height="60" as="geometry" />
@@ -54,6 +60,12 @@
         </mxCell>
         <mxCell id="Wy4MB-wMTk7PPI_UE0P6-18" value="其他首部" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wy4MB-wMTk7PPI_UE0P6-20" value="accept" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wy4MB-wMTk7PPI_UE0P6-22" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="370" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
