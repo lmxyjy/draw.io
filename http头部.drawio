@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T12:59:23.504Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="tnycPfyYQq86RTjCVGR1" version="16.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T12:59:47.249Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="exdm2o3DYrHPURpq1MB4" version="16.6.6" type="github">
   <diagram id="rW2sfNHs_H75Ewt_YXq0" name="Page-1">
     <mxGraphModel dx="1185" dy="1804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -110,22 +110,22 @@
           <mxGeometry x="480" y="780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pvIbaJWuK9pb7XgT8sxz-15" value="&lt;div&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;ydxnab&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;no&lt;/span&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;times new roman&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;ydxnab&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;cache&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;ydxnab&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;强制向源服务器再次验证&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="-320" width="120" height="60" as="geometry" />
+          <mxGeometry x="1080" y="-200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pvIbaJWuK9pb7XgT8sxz-17" value="&lt;div&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;ydxnab&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;no&lt;/span&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;times new roman&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;ydxnab&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;store&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;ydxnab&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;不缓存请求或响应的任何内容&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="-230" width="120" height="60" as="geometry" />
+          <mxGeometry x="1080" y="-140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pvIbaJWuK9pb7XgT8sxz-19" value="&lt;div&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;ydxnab&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;max&lt;/span&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;times new roman&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;ydxnab&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;age = [ 秒]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;ydxnab&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;响应的最大Age值&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="-140" width="120" height="60" as="geometry" />
+          <mxGeometry x="1080" y="-80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pvIbaJWuK9pb7XgT8sxz-21" value="&lt;div&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;ydxnab&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;max&lt;/span&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;times new roman&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;ydxnab&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;stale( = [ 秒])&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12pt&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;ydxnab&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;接收已过期的响应&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="-50" width="120" height="60" as="geometry" />
+          <mxGeometry x="1080" y="-20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pvIbaJWuK9pb7XgT8sxz-22" value="&lt;div&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;ydxnab&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;min&lt;/span&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;times new roman&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;ydxnab&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;fresh = [ 秒]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;ydxnab&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;期望在指定时间内的响应仍有效&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="1080" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pvIbaJWuK9pb7XgT8sxz-23" value="&lt;div&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;ydxnab&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;no&lt;/span&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;times new roman&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;ydxnab&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;transform&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;ydxnab&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;代理不可更改媒体类型&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="110" width="120" height="60" as="geometry" />
+          <mxGeometry x="1080" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pvIbaJWuK9pb7XgT8sxz-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="pvIbaJWuK9pb7XgT8sxz-27" target="pvIbaJWuK9pb7XgT8sxz-15">
           <mxGeometry relative="1" as="geometry" />
@@ -140,10 +140,10 @@
           <mxGeometry x="640" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pvIbaJWuK9pb7XgT8sxz-36" value="&lt;div&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;ydxnab&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;only&lt;/span&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;times new roman&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;ydxnab&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;times new roman&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;ydxnab&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;cached&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;ydxnab&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;从缓存获取资源&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="195" width="120" height="60" as="geometry" />
+          <mxGeometry x="1080" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pvIbaJWuK9pb7XgT8sxz-37" value="&lt;div&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;ydxnab&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;cache&lt;/span&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;times new roman&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;ydxnab&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;extension&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8pt ; font-family: &amp;#34;ydxnab&amp;#34; ; color: rgb(35 , 31 , 32)&quot;&gt;新指令标记（token）&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="285" width="120" height="60" as="geometry" />
+          <mxGeometry x="1080" y="220" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
