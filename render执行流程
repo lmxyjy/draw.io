@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-15T08:05:10.369Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="x_JNi20KvBcRzV9HGEgV" version="17.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-15T08:07:53.143Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="C7RadFDkbwsSGzLWzJGt" version="17.1.1" type="github">
   <diagram id="e0W7ke6fUErjZiQuOFCC" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,28 +26,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PR2jgF0bBLbipAvTychu-4" value="root是否存在？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="374" y="420" width="80" height="80" as="geometry" />
+          <mxGeometry x="374" y="561.25" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PR2jgF0bBLbipAvTychu-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PR2jgF0bBLbipAvTychu-8" target="PR2jgF0bBLbipAvTychu-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PR2jgF0bBLbipAvTychu-8" value="&lt;div&gt;&lt;/div&gt;1. 调用legacyCreateRootFromDOMContainer&lt;br&gt;创建根节点。&lt;br&gt;&lt;br&gt;2.是否存在callback，如果存在则执行callback&lt;br&gt;&lt;br&gt;3.调用unbatchedUpates传入&lt;span style=&quot;text-align: center&quot;&gt;updateContainer&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="61" y="413.75" width="250" height="92.5" as="geometry" />
+          <mxGeometry x="61" y="555" width="250" height="92.5" as="geometry" />
         </mxCell>
         <mxCell id="PR2jgF0bBLbipAvTychu-10" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="340" y="440" width="20" height="20" as="geometry" />
+          <mxGeometry x="340" y="581.25" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PR2jgF0bBLbipAvTychu-11" value="1.设置fiberRoot&amp;nbsp;=&amp;nbsp;root._internalRoot&lt;br&gt;&lt;br&gt;2.是否存在callback，如果存在就调用callback。&lt;br&gt;&lt;br&gt;3.调用&lt;span style=&quot;text-align: center&quot;&gt;updateContainer&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="517" y="408.75" width="203" height="102.5" as="geometry" />
+          <mxGeometry x="517" y="550" width="203" height="102.5" as="geometry" />
         </mxCell>
         <mxCell id="PR2jgF0bBLbipAvTychu-13" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="464" y="440" width="20" height="20" as="geometry" />
+          <mxGeometry x="464" y="581.25" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PR2jgF0bBLbipAvTychu-18" value="调用getPublicRootInstance返回创建出来的实例" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="341" y="570" width="146" height="70" as="geometry" />
+          <mxGeometry x="341" y="711.25" width="146" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PR2jgF0bBLbipAvTychu-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PR2jgF0bBLbipAvTychu-21" target="PR2jgF0bBLbipAvTychu-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PR2jgF0bBLbipAvTychu-21" value="1，如果非ssr，则先清空div里的所有内容&lt;br&gt;&lt;br&gt;2，返回调用createLegacyRoot的结果" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="300" width="226" height="52.5" as="geometry" />
+          <mxGeometry x="73" y="460" width="226" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="PR2jgF0bBLbipAvTychu-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PR2jgF0bBLbipAvTychu-23" target="PR2jgF0bBLbipAvTychu-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PR2jgF0bBLbipAvTychu-23" value="return&amp;nbsp;new&amp;nbsp;ReactDOMBlockingRoot" style="whiteSpace=wrap;html=1;align=center;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="456.25" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PR2jgF0bBLbipAvTychu-25" value="this._internalRoot&amp;nbsp;=&amp;nbsp;createRootImpl(container,&amp;nbsp;tag,&amp;nbsp;options);" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="596.25" width="320" height="43.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
