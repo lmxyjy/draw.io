@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-15T08:25:42.187Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="7ZKzp2jkm27a_Y4-WMg1" version="17.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-15T08:41:53.978Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="z4SEwcoT4CBBqcEbGlUo" version="17.1.1" type="github">
   <diagram id="e0W7ke6fUErjZiQuOFCC" name="Page-1">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -70,8 +70,20 @@
         <mxCell id="PR2jgF0bBLbipAvTychu-27" value="1，&lt;span style=&quot;text-align: center&quot;&gt;调用createFiberRoot创建fiberRoot&lt;/span&gt;&lt;br&gt;2，调用listenToAllSupportedEvents进行事件处理" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
           <mxGeometry x="-296.25" y="711.25" width="262.5" height="66.87" as="geometry" />
         </mxCell>
+        <mxCell id="PR2jgF0bBLbipAvTychu-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PR2jgF0bBLbipAvTychu-29" target="PR2jgF0bBLbipAvTychu-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PR2jgF0bBLbipAvTychu-29" value="1,创建new&amp;nbsp;FiberRootNode&lt;br&gt;2,调用createHostRootFiber创建fiber节点&lt;br&gt;3,调用initializeUpdateQueue初始化更新对象" style="whiteSpace=wrap;html=1;align=center;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-285.94" y="820" width="241.87" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PR2jgF0bBLbipAvTychu-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PR2jgF0bBLbipAvTychu-36" target="PR2jgF0bBLbipAvTychu-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PR2jgF0bBLbipAvTychu-36" value="1. mode赋值不同的模式&lt;br&gt;2. 调用createFiber创建fiber节点" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="825" width="180.01" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PR2jgF0bBLbipAvTychu-38" value="返回new FiberNode" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-489.995" y="965" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
