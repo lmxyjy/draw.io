@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-15T08:02:12.960Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="V1Pz5fkERC5wT9x1y4m4" version="17.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-15T08:05:10.369Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="x_JNi20KvBcRzV9HGEgV" version="17.1.1" type="github">
   <diagram id="e0W7ke6fUErjZiQuOFCC" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,6 +28,9 @@
         <mxCell id="PR2jgF0bBLbipAvTychu-4" value="root是否存在？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="374" y="420" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="PR2jgF0bBLbipAvTychu-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PR2jgF0bBLbipAvTychu-8" target="PR2jgF0bBLbipAvTychu-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PR2jgF0bBLbipAvTychu-8" value="&lt;div&gt;&lt;/div&gt;1. 调用legacyCreateRootFromDOMContainer&lt;br&gt;创建根节点。&lt;br&gt;&lt;br&gt;2.是否存在callback，如果存在则执行callback&lt;br&gt;&lt;br&gt;3.调用unbatchedUpates传入&lt;span style=&quot;text-align: center&quot;&gt;updateContainer&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
           <mxGeometry x="61" y="413.75" width="250" height="92.5" as="geometry" />
         </mxCell>
@@ -42,6 +45,9 @@
         </mxCell>
         <mxCell id="PR2jgF0bBLbipAvTychu-18" value="调用getPublicRootInstance返回创建出来的实例" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="341" y="570" width="146" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PR2jgF0bBLbipAvTychu-21" value="1，如果非ssr，则先清空div里的所有内容&lt;br&gt;&lt;br&gt;2，返回调用createLegacyRoot的结果" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="300" width="226" height="52.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
