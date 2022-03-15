@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-15T08:11:41.369Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="pi3kBSvCEpdyjcNfloUs" version="17.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-15T08:22:50.908Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="_uOAvDZ1uOFfdygIqylg" version="17.1.1" type="github">
   <diagram id="e0W7ke6fUErjZiQuOFCC" name="Page-1">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,8 +58,20 @@
         <mxCell id="PR2jgF0bBLbipAvTychu-23" value="返回一个ReactDOMBlockingRoot实例" style="whiteSpace=wrap;html=1;align=center;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-270" y="456.25" width="210" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="PR2jgF0bBLbipAvTychu-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PR2jgF0bBLbipAvTychu-25" target="PR2jgF0bBLbipAvTychu-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PR2jgF0bBLbipAvTychu-25" value="this._internalRoot&amp;nbsp;=&amp;nbsp;createRootImpl(container,&amp;nbsp;tag,&amp;nbsp;options);" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-325" y="597.5" width="320" height="43.75" as="geometry" />
+        </mxCell>
+        <mxCell id="PR2jgF0bBLbipAvTychu-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PR2jgF0bBLbipAvTychu-27" target="PR2jgF0bBLbipAvTychu-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PR2jgF0bBLbipAvTychu-27" value="1，调用createContainer创建root&lt;br&gt;2，调用listenToAllSupportedEvents进行事件处理" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-262.5" y="713.13" width="195" height="76.88" as="geometry" />
+        </mxCell>
+        <mxCell id="PR2jgF0bBLbipAvTychu-29" value="调用createFiberRoot创建fiberRoot" style="whiteSpace=wrap;html=1;align=center;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-263.75" y="830" width="197.5" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
