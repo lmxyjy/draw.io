@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-15T07:58:10.199Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="GtKM0KQ2o70BsFWD2Ron" version="17.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-15T08:01:18.666Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="bKe42lAsNobTvRW0sdSK" version="17.1.1" type="github">
   <diagram id="e0W7ke6fUErjZiQuOFCC" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="664" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,11 +28,8 @@
         <mxCell id="PR2jgF0bBLbipAvTychu-4" value="root是否存在？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="374" y="420" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PR2jgF0bBLbipAvTychu-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PR2jgF0bBLbipAvTychu-8" target="PR2jgF0bBLbipAvTychu-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PR2jgF0bBLbipAvTychu-8" value="调用&lt;br&gt;legacyCreateRootFromDOMContainer&lt;br&gt;创建根节点，是否存在callback，如果存在则执行callback" style="whiteSpace=wrap;html=1;rounded=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="90" y="430" width="224" height="60" as="geometry" />
+        <mxCell id="PR2jgF0bBLbipAvTychu-8" value="&lt;div&gt;&lt;/div&gt;1. 调用legacyCreateRootFromDOMContainer&lt;br&gt;创建根节点。&lt;br&gt;&lt;br&gt;2.是否存在callback，如果存在则执行callback&lt;br&gt;&lt;br&gt;3.调用unbatchedUpates传入&lt;span style=&quot;text-align: center&quot;&gt;updateContainer&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="20" y="385" width="290" height="150" as="geometry" />
         </mxCell>
         <mxCell id="PR2jgF0bBLbipAvTychu-10" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="340" y="440" width="20" height="20" as="geometry" />
@@ -42,15 +39,6 @@
         </mxCell>
         <mxCell id="PR2jgF0bBLbipAvTychu-13" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="464" y="440" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="PR2jgF0bBLbipAvTychu-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PR2jgF0bBLbipAvTychu-14" target="PR2jgF0bBLbipAvTychu-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PR2jgF0bBLbipAvTychu-14" value="调用非批量更新&lt;br&gt;unbatchedUpates" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="142" y="570" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PR2jgF0bBLbipAvTychu-16" value="updateContainer" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="142" y="710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PR2jgF0bBLbipAvTychu-18" value="调用getPublicRootInstance返回创建出来的实例" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="341" y="570" width="146" height="70" as="geometry" />
